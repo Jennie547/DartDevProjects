@@ -1,5 +1,7 @@
+// the main function
 void main() {
 
+  // this section prints basic calculation of 15 and 10 using basic addition within the print statement
   print(15 + 10);
   print(15 - 10);
   print(15 * 10);
@@ -7,9 +9,11 @@ void main() {
 
   print("----------------------------------------------");
 
+  // first defines 2 integers then carries out arithmetic
   int num1 = 15;
   int num2 = 10;
 
+  // carries out the calculations and assigns the results to new variables
   int sum = (num1 + num2);
   int sub = (num1 - num2);
   int mul = (num1 * num2);
@@ -29,6 +33,7 @@ void main() {
 
   print("----------------------------------------------");
 
+  // makes use of string interpolation
   print("The sum of $num1 and $num2 is $sum");
   print("The difference of $num1 and $num2 is $sub");
   print("The multiplication of $num1 and $num2 is $mul");
