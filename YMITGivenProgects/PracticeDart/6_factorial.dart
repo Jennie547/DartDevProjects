@@ -8,7 +8,7 @@ void main() {
 
   //promt user for an input
   stdout.write("Enter a number: ");
-  int? userInput = int.tryParse(stdin.readLineSync()!);
+  int? userInput = int.tryParse(stdin.readLineSync() ?? 'none');
 
   //check for number validity
   if (userInput == null || userInput <= 0) {

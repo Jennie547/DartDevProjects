@@ -1,6 +1,6 @@
 import 'dart:io';
 
-dynamic isPrime(num) {
+dynamic isPrime(dynamic num) {
   if (num < 2) {
     return "numbers below 2 are invalid!";
   }
