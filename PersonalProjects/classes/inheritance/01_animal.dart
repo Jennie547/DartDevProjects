@@ -28,7 +28,7 @@ class Dog extends Animal {
 void main() {
 
   var requiredAnimal = Animal("Pony", 5);
-  var givenAnimal = Dog("Pony", 5, "Bull", 3, "Jack");
+  var givenAnimal = Dog("Pony", 5, "German Shephard", 3, "Jack");
 
   print(requiredAnimal.pet());
   print(givenAnimal.bark());

@@ -6,7 +6,7 @@ class Boy {
   Boy(this.name, this.age);
 
   String greeting() {
-    return ("Hello ${name}, are you ${age} yrs old?");
+    return "Hello ${name}, are you ${age} yrs old?";
   }
 
 }
